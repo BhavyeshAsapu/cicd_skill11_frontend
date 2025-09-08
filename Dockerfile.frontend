@@ -6,7 +6,7 @@ WORKDIR /app
 RUN apk add --no-cache git
 
 # Clone your frontend repo
-RUN git clone https://github.com/lakshminarayana-xxxxx/docker-ecommerce-frontend1.git .
+RUN git clone https://github.com/BhavyeshAsapu/cicd_skill11_frontend.git .
 
 # Install deps and build
 RUN npm install
